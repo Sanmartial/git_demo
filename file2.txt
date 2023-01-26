@@ -3,7 +3,20 @@ public static void main(String [] args){
 
 System/out/println("Hello word");
 
+<<<<<<< HEAD
 System/out/println("Hello word222");
+=======
+ List<String> listLine = Files.lines(Paths.get("C:\\Users\\globa\\OneDrive\\Рабочий стол\\ENG.vtt")).collect(Collectors.toList());
+
+        listLine.stream().filter(e -> !e.isEmpty()).map(e -> {
+            if (!e.matches("[0-9:.->\\W]+")) listLine1.add(addSpace(e));
+            return e;
+        }).collect(Collectors.toList());
+
+        writerFile();
+
+System/out/println("Hello word");
+>>>>>>> dev
 
 }
 }
