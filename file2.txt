@@ -12,5 +12,7 @@ System/out/println("Hello word");
 
         writerFile();
 
+System/out/println("Hello word");
+
 }
 }
