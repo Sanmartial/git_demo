@@ -11,3 +11,7 @@ bean += bean;
 }
 
 System.out.printl(bean);
+
+void doSomething(String name){
+System.out.printl(bean);
+}
